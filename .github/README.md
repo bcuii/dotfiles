@@ -62,7 +62,12 @@ Two things worth noting:
 - The docs live in `.github/` rather than the repository root: GitHub looks for a
   README in `.github/`, the root, and `docs/` (in that order of precedence), so
   `.github/` gets it rendered on the home page without leaving a conspicuous
-  `~/README.md` in the home directory.
+  `~/README.md` in the home directory. See
+  [About the repository README file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes):
+
+  > If you put your README file in your repository's hidden `.github`, root, or
+  > `docs` directory, GitHub will recognize and automatically surface your README
+  > to repository visitors.
 
 ## Key commands
 

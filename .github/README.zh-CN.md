@@ -58,7 +58,12 @@ $HOME/                              ← work-tree（= 仓库根目录）
 - `.dotfiles/` 是 git 的数据目录，不是配置文件，**不要 add 它**。
 - 文档放在 `.github/` 而不是仓库根目录：GitHub 会在 `.github/`、根目录、`docs/`
   三处查找 README（优先级也是这个顺序），放 `.github/` 既能在首页渲染，
-  又不会在家目录里多出一个显眼的 `~/README.md`。
+  又不会在家目录里多出一个显眼的 `~/README.md`。依据见官方文档
+  [About the repository README file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)：
+
+  > If you put your README file in your repository's hidden `.github`, root, or
+  > `docs` directory, GitHub will recognize and automatically surface your README
+  > to repository visitors.
 
 ## 关键命令
 
